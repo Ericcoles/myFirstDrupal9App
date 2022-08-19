@@ -3,5 +3,5 @@ recipe: drupal9
 config:
   webroot: .
 services:
-  myservice:
+  phpmyservice:
     type: phpmyadmin
