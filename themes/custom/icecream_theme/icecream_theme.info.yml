@@ -1,8 +1,17 @@
 name: Icecream theme
 type: theme
 description: Custom theme created by Eric A. Coles to learn about making themes
-base theme: stable
-core_version_requirement: ^9
+# sem version
+base theme: false
+core_version_requirement: ^8 || ^9
+version: 1.0.0
 
 libraries:
-  - icecream_theme/global
+  - icecream_theme/global-style
+
+regions:
+  header: Heavenly header
+  menu: aMazing menu
+  content: Cool content
+  sidebar: Saucy Sidebar
+  footer: Fancy footer

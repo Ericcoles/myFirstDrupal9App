@@ -1,0 +1,6 @@
+name: First_Module
+type: module
+description: My first custom drupal 9 module
+package: Custom
+version: 1.0.0
+core_version_requirement: ^8 || ^9

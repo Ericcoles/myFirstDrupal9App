@@ -1,0 +1,7 @@
+coles_module.coles:
+  path: "/coles/page"
+  defaults:
+    _controller: 'Drupal\coles_module\Controller\colesController::coles'
+    _title: "Welcome to Eric Coles Cool Drupal 9 Module, you dig?"
+  requirements:
+    _permission: "access content"
